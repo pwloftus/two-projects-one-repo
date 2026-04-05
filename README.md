@@ -12,10 +12,10 @@ You've heard the legends. You've seen the look on people's faces. Now witness fo
 
 This repository contains **two projects**. We know this because we counted. Twice. Using different languages. With unnecessary dependencies.
 
-| Project | Language | Purpose | Dependencies Required |
-|---------|----------|---------|----------------------|
-| `/python` | Python | Count directories | numpy, pandas, scipy, matplotlib, requests, Pillow, scikit-learn, tensorflow |
-| `/npm` | JavaScript | Also count directories | express, react, webpack, babel, typescript, mongoose, redis, graphql, puppeteer, ffmpeg, mathjs, and more |
+| Project | Language   | Purpose                | Dependencies Required                                                                                     |
+|---------|------------|------------------------|-----------------------------------------------------------------------------------------------------------|
+| `/python` | Python     | Count directories      | numpy, pandas, scipy, matplotlib, requests, Pillow, scikit-learn, tensorflow                              |
+| `/npm`    | JavaScript | Also count directories | express, react, webpack, babel, typescript, mongoose, redis, graphql, puppeteer, ffmpeg, mathjs, and more |
 
 The answer is `2`.
 
@@ -32,6 +32,7 @@ python count_projects.py
 ```
 
 **Output:**
+
 ```
 Number of projects: 2
 ```
@@ -49,6 +50,7 @@ node count_projects.js
 ```
 
 **Output:**
+
 ```
 Number of projects: 2
 ```
@@ -63,11 +65,11 @@ Puppeteer downloaded a full copy of Chromium. For a directory listing.
 ┌─────────────────────────────────────────────────────────────────┐
 │                      two-projects-one-repo                      │
 │                                                                 │
-│   ┌─────────────────────┐     ┌─────────────────────────────┐  │
-│   │       /python        │     │            /npm             │  │
-│   │                     │     │                             │  │
-│   │  tensorflow         │     │  react                      │  │
-│   │  scikit-learn    ───┼──┐  │  webpack               ─── ┼──┐│
+│   ┌─────────────────────┐     ┌─────────────────────────────┐   │
+│   │       /python       │     │            /npm             │   │
+│   │                     │     │                             │   │
+│   │  tensorflow         │     │  react                      │   │
+│   │  scikit-learn    ───┼──┐  │  webpack                 ───┼──┐│
 │   │  pandas             │  │  │  graphql                    │  ││
 │   │  scipy              │  │  │  puppeteer                  │  ││
 │   │  matplotlib         │  │  │  ffmpeg                     │  ││
@@ -93,7 +95,7 @@ A: Deep learning.
 **Q: Why does the npm version install React to read the filesystem?**  
 A: We may want to render the result as a component later.
 
-**Q: What does mathjs add here that JavaScript's `+` operator doesn't?**  
+**Q: What does mathjs add here that JavaScript's** `+` **operator doesn't?**  
 A: Confidence.
 
 **Q: Does Puppeteer actually do anything?**  
